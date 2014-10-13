@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ikt.platinumbeers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+         <EditText style="@style/EditTextAppTheme" android:layout_marginBottom="10dp" android:hint="@string/hint_entercardno" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+         <EditText style="@style/EditTextAppTheme" android:layout_marginBottom="10dp" android:hint="@string/hint_cusemail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+         <EditText style="@style/EditTextAppTheme" android:layout_marginBottom="10dp" android:hint="@string/hint_cusname" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+   		<org.jraf.android.backport.switchwidget.Switch android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center"
+   		    app:textOn="@string/text_female"
+   			app:textOff="@string/text_male"
+   			android:layout_marginBottom="10dp">
+   		    
+   		</org.jraf.android.backport.switchwidget.Switch>
+   		<org.jraf.android.backport.switchwidget.Switch android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical|center"
+   		    app:textOn="@string/text_expat"
+   			app:textOff="@string/text_local"
+   			android:layout_marginBottom="10dp">
+   		    
+   		</org.jraf.android.backport.switchwidget.Switch>
+   		<RadioGroup
+        android:id="@+id/radioSex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical|center" >
+ 
+        <RadioButton
+            style="@style/RadioAppTheme"
+            android:id="@+id/radio_minus_35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="@string/text_minus_35" 
+            android:checked="true"
+            />
+ 		 <RadioButton
+            style="@style/RadioAppTheme"
+            android:id="@+id/radio_middle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            />
+        <RadioButton
+            style="@style/RadioAppTheme"
+            android:id="@+id/radio_plus_50"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          
+            android:text="@string/text_plus_50"
+            />
+ 
+    </RadioGroup>
+    <Button style="@style/ButtonAppTheme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_start_flying"/>
+    </LinearLayout>
+   
+
+</ScrollView>

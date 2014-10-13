@@ -1,0 +1,78 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="switchStyle">@style/Widget.Holo.CompoundButton.Switch</item>
+        <item name="switchPreferenceStyle">@style/Preference.SwitchPreference</item>
+    </style>
+    
+	<style name="EditTextAppTheme" parent="android:Widget.EditText">
+	  <item name="android:background">@drawable/edit_text_apptheme</item>
+	  <item name="android:textColor">@color/grey_main</item>
+	   <item name="android:singleLine" >true</item>
+ 	</style>
+ 	  <style name="LinearLayoutAppTheme" >
+        <item name="android:background">@drawable/p_app_background</item>
+    </style>
+    <style name="SpinnerAppTheme" parent="android:Widget.Spinner">
+      <item name="android:background">@drawable/spinner_background_apptheme</item>
+      <item name="android:dropDownSelector">@drawable/list_selector_apptheme</item>
+    </style>
+    <style name="ButtonAppTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_background_apptheme</item>
+        <item name="android:textColor">@color/white_main</item>
+    </style>
+    <style name="ButtonSmallAppTheme" parent="android:Widget.Button">
+        <item name="android:background">@drawable/button_small_background_apptheme</item>
+        <item name="android:textColor">@color/white_main</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+        <item name="android:minHeight">0dp</item>
+		<item name="android:minWidth">0dp</item>	
+    </style>
+    <style name="ImageViewHeaderLogo">
+        <item name="android:paddingTop" >10dp</item>
+        <item name="android:paddingBottom" >10dp</item>
+    </style>
+    <style name="CustomViewWithBlueBorder">
+        <item name="android:background">@drawable/custom_view_with_blue_border</item>
+    </style>
+    <style name="CustomViewHeader">
+        <item name="android:background">@drawable/custom_view_header</item>
+    </style>
+    <style name="TextViewMedium" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white_main</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>
+    <style name="TextViewLarge" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white_main</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+    <style name="TextViewSmall" parent="android:Widget.TextView">
+        <item name="android:textColor">@color/white_main</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+    </style>
+    <style name="SwitchAppTheme" >
+        <item name="android:background" >@drawable/switch_background_apptheme</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+    </style>
+    <style name="RadioAppTheme" >
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+        <item name="android:textColor">@color/white_main</item>
+        <item name="android:button" >@null</item>
+        <item name="android:drawableTop">@android:drawable/btn_radio</item>
+    </style>
+</resources>

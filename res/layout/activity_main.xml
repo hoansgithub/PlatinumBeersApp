@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ikt.platinumbeers.MainActivity"
+    android:orientation="vertical"
+    style="@style/LinearLayoutAppTheme" >
+<LinearLayout style="@style/CustomViewHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="horizontal" >
+    <TextView style="@style/TextViewMedium" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Damien - HOPS beer club"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        style="@style/ButtonSmallAppTheme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text_logout" />
+
+</LinearLayout>
+
+ <ImageView
+        style="@style/ImageViewHeaderLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ppa_logo_transparent" />
+   <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:gravity="center_vertical|center_horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1" />
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:orientation="horizontal" />
+            </LinearLayout>
+        </TabHost>
+
+</LinearLayout>

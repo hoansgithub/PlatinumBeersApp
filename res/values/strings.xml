@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PlatinumBeers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_auth">AuthActivity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_platinum">Platinum</string>
+    
+    <string name="text_login">LOGIN</string>
+    <string name="text_logout">LOGOUT</string>
+    <string name="text_male">MALE</string>
+    <string name="text_female">FEMALE</string>
+    <string name="text_local">LOCAL</string>
+    <string name="text_expat">EXPAT</string>
+    <string name="text_minus_35">-35</string>
+    <string name="text_plus_50">50+</string>
+    <string name="text_start_flying">START FLYING</string>
+    <string name="text_down_the_hatch">DOWN THE HATCH</string>
+    <string name="text_choose_prize">CHOOSE PRIZE</string>
+    <string name="text_redeem_prize">REDEEM PRIZE</string>
+    <string name="text_today">Today</string>
+    <string name="text_glass">GLASS</string>
+    <string name="text_tower">TOWER</string>
+    <string name="text_plus">+</string>
+    <string name="text_or">OR</string>
+    <string name="text_keg">KEG</string>
+    <string name="text_venue_pos_report">VENUE POS REPORT</string>
+    <string name="text_pg_shift_report">PG SHIFT REPORT</string>
+    
+	<string name="hint_username">username</string>
+	<string name="hint_password">password</string>
+	<string name="hint_entercardno">ENTER CARD #</string>
+	<string name="hint_cusemail">CUSTOMER EMAIL</string>
+	<string name="hint_cusname">CUSTOMER NAME</string>
+	<string name="hint_number_glass"># OF GLASSES</string>
+	<string name="hint_number_tower"># OF TOWERS</string>
+	
+	<string-array name="days_of_week" >
+	    <item>Monday</item>
+	    <item>Tuesday</item>
+	    <item>Wednesday</item>
+	    <item>Thursday</item>
+	    <item>Friday</item>
+	</string-array>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.ikt.platinumbeers"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout android:orientation="vertical" android:layout_gravity="center_vertical" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+    
+		<EditText style="@style/EditTextAppTheme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_entercardno" android:layout_marginBottom="10dp"/>
+		<EditText style="@style/EditTextAppTheme" android:inputType="number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_number_glass" android:layout_marginBottom="10dp"/>
+		<EditText style="@style/EditTextAppTheme" android:inputType="number" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/hint_number_tower" android:layout_marginBottom="10dp"/>
+		<Button style="@style/ButtonAppTheme" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_down_the_hatch" android:layout_marginBottom="10dp"/>
+		
+	</LinearLayout>
+</ScrollView>

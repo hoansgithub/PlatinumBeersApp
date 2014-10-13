@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ikt.platinumbeers.SplashActivity" >
+
+   <ImageView android:scaleType="fitXY" android:contentDescription="@string/title_activity_splash"  android:src="@drawable/pb_loading" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+
+</RelativeLayout>
